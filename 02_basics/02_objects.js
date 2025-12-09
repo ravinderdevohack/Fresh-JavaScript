@@ -72,3 +72,36 @@ console.log(Object.keys(jsObject))
 console.log(Object.values(jsObject));
 
 
+//  object de-structure
+
+const course = {
+    courseName: "JavaScript",
+    prine: "free",
+    courseInstructor: "Ravinder"
+}
+
+// now to access this we use
+console.log(course.courseInstructor);
+
+// but we can also de-structure this and access the course object this way 
+
+const {courseInstructor: instrutor} = course        // de-structure the code
+
+console.log(instrutor);
+
+
+// de-structure use in React , example
+// ()=> {}  ; -> also function declaration
+// const navBar = ({comapany}) => {                 // ({conmpany})  -> de-structure, mainly there should be (props.company)
+
+// }
+
+
+//  API nows mostly comes in Jsom format
+//  json format
+// {
+//     "id": "1",
+//     "name": "ravinder",
+// }
+
+// [{},{}]
