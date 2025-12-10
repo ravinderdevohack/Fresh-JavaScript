@@ -26,5 +26,6 @@ const user = {
 //     return num1 + num2
 // }
 
-const addNumber = (num1, num2) => (num1+ num2)      // implicit return not mention, explicit return mention
+const addNumber = (num1, num2) => (num1+ num2)      // implicit-> return not mention, explicit return mention
+const addNumber2 = (num1, num2) => { return num1+ num2}    // {} -> return need to mention
 console.log(addNumber(2,4));
